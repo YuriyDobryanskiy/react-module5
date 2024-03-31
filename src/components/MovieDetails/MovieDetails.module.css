@@ -1,0 +1,79 @@
+.buttonContainer {
+    margin: 12px;
+    position: relative;
+}
+
+.goBackBtn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 6px 6px 6px 32px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.arrowSVG {
+    position: absolute;
+    left: 10px;
+    top: 5.5px;
+    width: 16px;
+    height: 20px;
+}
+
+.basicInfoContainer {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 12px;
+    display: flex;
+}
+
+.poster {
+    display: block;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.textInfo {
+    margin: 12px;
+}
+
+.additionalIfnoContainer {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 12px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+}
+
+.additionalIfnoContainer h4 {
+    margin-bottom: 0;
+}
+
+.additionaLinks {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.additionaLinks:first-child {
+    padding-bottom: 0;
+}
+
+.additionaLinks:last-child {
+    padding-top: 0;
+}
+
+.additionaLinks:hover,
+.additionaLinks:focus {
+    color: red;
+}
+
+.additionaLinksContainer {
+    display: flex;
+    flex-direction: column;
+}

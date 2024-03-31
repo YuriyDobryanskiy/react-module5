@@ -1,0 +1,26 @@
+.castList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style-type: none;
+    padding: 0;
+    align-items: start;
+    justify-content: center;
+}
+
+.actorImg {
+    width: 130px;
+    overflow: hidden;
+}
+
+.castListContainer {
+    padding: 8px;
+    margin: 12px;
+    margin-top: 20px;
+}
+
+.castItem {
+    width: calc((100% - 60px) / 6);
+    text-align: center;
+    padding-top: 12px;
+}
